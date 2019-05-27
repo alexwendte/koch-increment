@@ -1,0 +1,37 @@
+.calc-wrapper {
+  margin: 3.2rem auto;
+  width: 20rem;
+  background: hsl(240, 4%, 45%);
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+.calc-input {
+  width: 100%;
+  margin: 1.2rem 0;
+  padding: .8rem 1.2rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.number-buttons {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 75%;
+}
+
+.output-buttons {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  width: 25%;
+}
+
+.calc-button {
+  background: hsl(240, 60%, 90%);
+  border: none;
+  padding: .8rem .4rem;
+  margin: .8rem;
+  display: block;
+  border-radius: 5px;
+  font-weight: 600;
+}
