@@ -1,4 +1,4 @@
-.calc-wrapper {
+.inc-wrapper {
   margin: 3.2rem auto;
   width: 20rem;
   background: hsl(240, 4%, 45%);
@@ -6,7 +6,7 @@
   border-radius: 5px;
 }
 
-.calc-input {
+.inc-input {
   width: 100%;
   margin: 1.2rem 0;
   padding: .8rem 1.2rem;
@@ -16,7 +16,7 @@
 
 .number-buttons {
   display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   width: 75%;
 }
 
@@ -26,7 +26,7 @@
   width: 25%;
 }
 
-.calc-button {
+.inc-button {
   background: hsl(240, 60%, 90%);
   border: none;
   padding: .8rem .4rem;
